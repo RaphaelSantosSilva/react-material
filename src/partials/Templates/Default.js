@@ -1,7 +1,7 @@
 import React from "react"
-import Container from '@mui/material/Container'
-
 import Header from "../Header/Header"
+import { Container } from "@mui/material"
+
 import './Default.css'
 
 const Default = ({ children }) => {
