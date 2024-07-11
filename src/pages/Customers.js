@@ -18,10 +18,10 @@ const Customers = () => {
 
     return (
         <>
-            <Typography variant="h2" style={{
+            <Typography variant="h3" style={{
                 margin: 15,
                 textTransform: 'uppercase',
-                letterSpacing: 7
+                letterSpacing: 5
             }}>
                 Customers
             </Typography>

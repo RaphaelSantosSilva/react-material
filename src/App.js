@@ -7,14 +7,14 @@ import TemplateDefault from "./partials/Templates/Default"
 
 const  App = () => {
   return (
-    <TemplateDefault>
-      <BrowserRouter>
+    <BrowserRouter>
+      <TemplateDefault>
         <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/customers" element={<Customers />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/customers" element={<Customers />} />
         </Routes>
-      </BrowserRouter>
-    </TemplateDefault>
+      </TemplateDefault> 
+    </BrowserRouter>
   )
 }
 

@@ -1,10 +1,19 @@
 import React from "react"
 import { Outlet } from "react-router-dom"
+import { Typography } from "@mui/material"
+import './Home.css'
 
 const  Home = () => {
   return (
     <>
-        <h1>Welcome to my application react router with material ui!</h1>
+         <Typography variant="h3" style={{
+                margin: 20,
+                textTransform: 'uppercase',
+                letterSpacing: 5
+            }}>
+                Home
+            </Typography>
+        <h1 className="primeiro-titulo">Welcome to my application react router with material ui!</h1>
         <br></br>
         <hr></hr>
         <br></br>
